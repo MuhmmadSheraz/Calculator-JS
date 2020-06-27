@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-table {
+    border: 0px solid #303030;
+    background-color: #303030;
+    color: white;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    height: 500px;
+    width: 400px;
+    margin-bottom: 88px!important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lcd {
+    background-color: #a2af77;
+    height: 90px;
+    margin: 0 15px;
+}
+
+.button {
+    background-color: #58595b;
+    text-align: center;
+}
+
+.function-button {
+    background-color: black;
+    text-align: center;
+}
+
+.only-section {
+    background-color: blanchedalmond;
+    min-height: 100vh;
+}
+
+td,
+th {
+    border-radius: 8px;
+}
+
+.Header {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+.heading-gallery {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.image-height {
+    height: 200px;
+    width: 200px;
+}
+
+.main-images {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.gallery-body {
+    background-color: blanchedalmond;
+}
+
+.equal-button {
+    background-color: orange;
+}
+
+#calDisplay {
+    padding: 0 10px;
+}
+
+.allBtn:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.dellBtn:hover {
+    background-color: #C9302C;
+    color: white;
+    cursor: pointer;
+}
+
+.equBtn:hover {
+    background-color: #449D44;
+    color: white;
+    cursor: pointer;
+}

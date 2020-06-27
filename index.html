@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        calculator
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="only-section">
+
+        <table cellspacing="10" class="main-table">
+
+            <tr class="lcd">
+                <td colspan="10" id="calDisplay"> </td>
+            </tr>
+            <tr class="function-button">
+                <td class="allBtn" onclick="clearAll()">C </td>
+                <td class="dellBtn" onclick=del()>Del</td>
+                <td class="allBtn" onclick="showNumb('/')">÷ </td>
+                <td class="allBtn" onclick="showNumb('*')">X</td>
+            </tr>
+
+            <tr class="button">
+                <td class="allBtn" onclick="showNumb('7')">7</td>
+                <td class="allBtn" onclick="showNumb('8')">8</td>
+                <td class="allBtn" onclick="showNumb('9')">9</td>
+                <td class="allBtn" onclick="showNumb('-')">-</td>
+            </tr>
+            <tr class="button">
+                <td class="allBtn" onclick="showNumb('4')">4</td>
+                <td class="allBtn" onclick="showNumb('5')">5</td>
+                <td class="allBtn" onclick="showNumb('6')">6</td>
+                <td class="allBtn" onclick="showNumb('+')">+</td>
+            </tr>
+            <tr class="button">
+                <td class="allBtn" onclick="showNumb('1')">1</td>
+                <td class="allBtn" onclick="showNumb('2')">2</td>
+                <td class="allBtn" onclick="showNumb('3')">3</td>
+                <td rowspan="2" class="equBtn" onclick="equal()" lass="equal-button">=</td>
+
+            </tr>
+            <tr class="button">
+                <td colspan="2" class="allBtn" onclick="showNumb('0')">0</td>
+                <td>.</td>
+
+
+            </tr>
+
+        </table>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
